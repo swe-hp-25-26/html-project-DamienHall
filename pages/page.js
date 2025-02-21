@@ -5,8 +5,11 @@ window.onload = () => {
     let files = Array.from(document.getElementsByClassName("file"));
     console.log(files);
     files.forEach((element, index) => {
-        element.onclick = () => {
-            console.log("FILE CLICKED!");
+        element.onclick = (e) => {
+            let parentID = e.target.parentElement.id;
+            let iframe = document.getElementById("content-iframe");
+            let currentContent = iframe.src.split("/").pop().split(".").shift();
+            iframe.src = iframe.src.replace(currentContent, parentID);
         }
     });
 }
