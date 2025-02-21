@@ -39,7 +39,31 @@ h1 {
 }
 
 .main-content {
+    display: flex;
     height: 100%;
+}
+
+.main-content > div {
+    margin-right: 20px;
+}
+
+#headshot {
+    max-width: calc(712px*0.5);
+    max-height: calc(955px*0.5);
+    border: 20px ridge #ff00f2;
+    margin: 0px 20px 0px 20px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
 }
 
 footer {
