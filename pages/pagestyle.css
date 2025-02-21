@@ -1,0 +1,138 @@
+* {
+    cursor: url("../images/custom-cursor.png") 10 1, auto;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/655072262/vector/internet-security-software-hexadecimal-code-seamless-pattern.jpg?s=612x612&w=0&k=20&c=qaNRePs5A9aDvH_bgZStcnTai_JUyfzv-CG9VdIWL24=");
+    background-position: center;
+    background-repeat: repeat;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100vh;
+
+    color: white;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#main-content-container {
+    position: relative;
+    background-color: #052439;
+    width: 70vw;
+    height: 75vh;
+    border: 20px double #00fffa;
+}
+
+.main-content {
+    height: 100%;
+}
+
+.side-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.file {
+    max-width: calc(100%/3);
+}
+
+.file > img {
+    width: 100%;
+    margin-bottom: -20%;
+}
+
+.file > p {
+    color: #faff00;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+#side-content-container {
+    background-color: #052439;
+    width: 20vw;
+    height: 75vh;
+    border: 20px double #00fffa;
+    margin-left: 2.5vw;
+}
+
+.tab-container {
+    display: flex;
+    position: absolute;
+    background-color: #00fffa;
+    top: -52px;
+    left: -8px;
+}
+
+.tab {
+    background-color: #00fffa;
+    padding: 10px 20px;
+    color: #ff00f2;
+    font-size: 16px;
+}
+
+.tab > p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.current > a {
+    color: #ff00f2;
+    font-weight: bold;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#text3d {
+    color: #ff00f2;
+    letter-spacing: .15em;
+    text-shadow: 
+      -1px -1px 1px #efede3, 
+      0px 1px 0 #2e2e2e, 
+      0px 2px 0 #2c2c2c, 
+      0px 3px 0 #2a2a2a, 
+      0px 4px 0 #282828, 
+      0px 5px 0 #262626, 
+      0px 6px 0 #242424, 
+      0px 7px 0 #222, 
+      0px 8px 0 #202020, 
+      0px 9px 0 #1e1e1e, 
+      0px 10px 0 #1c1c1c, 
+      0px 11px 0 #1a1a1a, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(0, 0, 0, 0.9);
+ }
+
+ iframe {
+     border: none;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+     height: 100%;
+ }
