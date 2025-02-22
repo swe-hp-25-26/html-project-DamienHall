@@ -56,6 +56,10 @@ main {
     justify-content: center;
 }
 
+#highschool {
+    border: 20px ridge #faff00;
+}
+
 #example {
     max-width: calc(585px*0.6);
     max-height: calc(544px*0.6);
