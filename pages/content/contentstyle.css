@@ -38,20 +38,35 @@ h1 {
     text-align: center;
 }
 
+main {
+    font-size: 1.2em;
+}
+
 .main-content {
     display: flex;
     height: 100%;
+    padding: 0px 20px 0px 20px;
 }
 
-.main-content > div {
-    margin-right: 20px;
+.aligncenter {
+    align-items: center;
+}
+
+.justifycenter {
+    justify-content: center;
+}
+
+#example {
+    max-width: calc(585px*0.6);
+    max-height: calc(544px*0.6);
+    margin: 0px 20px 0px 20px;
 }
 
 #headshot {
     max-width: calc(712px*0.5);
     max-height: calc(955px*0.5);
     border: 20px ridge #ff00f2;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 0px;
 }
 
 .row {
@@ -68,7 +83,6 @@ h1 {
 
 footer {
     width: 100%;
-    align-self: flex-end;
 }
 
 #text3d {

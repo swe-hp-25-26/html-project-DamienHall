@@ -63,6 +63,12 @@ body {
 
 #side-content-container {
     background-color: #052439;
+    /*
+    background-image: url("../images/bliss.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    */
     width: 20vw;
     height: 75vh;
     border: 20px double #00fffa;
